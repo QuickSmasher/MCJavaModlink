@@ -1,26 +1,4 @@
 <!doctype html>
 <img src="Header.png" alt="Icon">
-<p>Add Mods</p>
-<style>
-  div.drop_zone {
-    boarder-color: #000000;
-  background-color: #D3D3D3;
-  }
-</style>
-<div id="drop-area">
-  <form class="my-form">
-    <p>Upload multiple files with the file dialog or by dragging and dropping images onto the dashed region</p>
-    <input type="file" id="fileElem" multiple accept="image/*" onchange="handleFiles(this.files)">
-    <label class="button" for="fileElem">Select some files</label>
-  </form>
-</div>
-
-<script>
-let dropArea = document.getElementById('drop-area')
-
-  dropArea.addEventListener('dragenter', handlerFunction, false)
-  dropArea.addEventListener('dragleave', handlerFunction, false)
-  dropArea.addEventListener('dragover', handlerFunction, false)
-  dropArea.addEventListener('drop', handlerFunction, false)
-</script>
+<button href="upload.html">Add Mods</button>
 
