@@ -1,0 +1,6 @@
+Welcome User! The main page is titled Index.html(Homepage if downloaded).
+----------------------------------------------------------------------------------------------
+Info:
+Creator: QuickSmash
+Page Status: In beta
+Version: 0.0.1
